@@ -5,12 +5,18 @@
     <meta charset='utf-8'>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="manifest" href="manifest.json">
-    <style></style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+    <style>
+        .github-fork-ribbon:before{
+            background-color: green !important;
+        }
+    </style>
     <title>PlayCanvas ClojureScript Demo - Third Person View</title>
     <script src="playcanvas-stable.min.js"></script>
     <script src="settings.js"></script>
 </head>
 <body>
+    <a class="github-fork-ribbon" href="https://github.com/ertugrulcetin/playcanvas-cljs-demo" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <script src="modules.js"></script>
     <script src="start.js"></script>
     <script src="loading.js"></script>
